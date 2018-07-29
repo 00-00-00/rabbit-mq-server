@@ -45,6 +45,8 @@ dependencies {
     compile "io.vertx:vertx-lang-kotlin:$vertxVersion"
     compile 'io.vertx:vertx-web:3.5.3'
 
+    compile 'com.rabbitmq:amqp-client:5.3.0'
+
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile "org.jetbrains.kotlin:kotlin-runtime:$kotlin_version"
 }
